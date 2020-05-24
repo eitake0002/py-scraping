@@ -1,6 +1,7 @@
 import scrapy
 from pprint import pprint
 import pandas as pd
+from bs4 import BeautifulSoup
 
 class EcommerceSpider(scrapy.Spider):
     name = "ecommerce"
